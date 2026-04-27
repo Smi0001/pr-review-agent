@@ -62,7 +62,7 @@ Agent Binod can be used in two ways — as a **global CLI tool** (recommended) o
    Install globally via npm:
 
 ```
-npm install -g agent-binod
+npm install -g @smi0001/agent-binod
 ```
 
 2. **Configuration** ⚙️
@@ -103,7 +103,7 @@ agent-binod "Review PR #1 and post comment"
    When a new version is published, update your global install:
 
 ```
-npm install -g agent-binod@latest
+npm install -g @smi0001/agent-binod@latest
 ```
 
 ---
@@ -301,7 +301,7 @@ npm start "List open PRs and review each one, post comments"
 
 **Links** 🔗
 - GitHub: https://github.com/Smi0001/agent-binod
-- npm: https://www.npmjs.com/package/agent-binod
+- npm: https://www.npmjs.com/package/@smi0001/agent-binod
 
 ---
 <br/>
@@ -378,7 +378,7 @@ npm start "List open PRs and review each one, post comments"
 
 ### v1.0.2 — Global CLI ⚡
 
-- **Install globally** — `npm install -g agent-binod` and run from anywhere as `agent-binod "..."`.
+- **Install globally** — `npm install -g @smi0001/agent-binod` and run from anywhere as `agent-binod "..."`.
 - **Fixed Node v18 compatibility** — Replaced `--env-file` flag (Node v20+ only) with `dotenv`, making the tool work on Node v18+.
 - **`.npmignore`** — Added explicit publish rules to keep `.env`, `.claude/`, and dev files out of the npm package.
 
